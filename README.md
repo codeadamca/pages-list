@@ -8,7 +8,8 @@ https://pages.codeadam.ca/
 
 ## Tutorial Requirements:
 
-* [Visual Studio Code](https://code.visualstudio.com/) 
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [GitHub](https://github.com/)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
