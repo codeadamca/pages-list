@@ -1,4 +1,4 @@
-# pages-list
+# A List of Sample Coding Assignments
 
 A list of example assignments. 
 
