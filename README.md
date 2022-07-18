@@ -6,6 +6,8 @@ The active version can viewed at:
 
 https://pages.codeadam.ca/
 
+![Pages](https://github.com/codeadamca/pages-list/blob/main/screenshot-pages.png?raw=true)
+
 ## Tutorial Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/)
