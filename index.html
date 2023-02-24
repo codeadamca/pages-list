@@ -46,10 +46,23 @@
     text-align: center;
     width: 100%;
   }
-  #step-1-box img {
-    width: 22vmin;
-    border: 0.4vw solid #fff;
+  #step-1-box > div {
+    width: 17vmin;
+    display: inline-block;
+    box-sizing: border-box;
     margin: 0.4vw;
+  }
+  #step-1-box > .assignment > a > img {
+    width: 100%;
+    border: 0.4vw solid #fff;
+    box-sizing: border-box;
+  }
+
+  #step-1-box > .assignment > div > a > img {
+    width: 3vw;
+    margin: 0.4vw 0.2vw;
+    border: none;
+    box-sizing: border-box;
   }
 
   #codeadam {
@@ -102,11 +115,25 @@
       .then(response => response.json())
       .then(data => {
         data.forEach(value => {  
-          step1Box.innerHTML += '<a href="' + 
+
+          let topics = '';
+          console.log(value.topics.length);
+          value.topics.forEach(topic => {  
+            topics += '<a href="' + topic.url + '">' + 
+              '<img src="' + topic.image + '">' + 
+              '</a>';
+            console.log(topic);
+          });
+
+          step1Box.innerHTML += '<div class="assignment"><a href="' + 
             value.url + 
             '"><img src="' + 
             value.image + 
-            '"></a>';
+            '"></a>' + 
+            '<div>' + 
+            topics + 
+            '</div>' + 
+            '</div>';
         });
       });
 
