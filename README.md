@@ -2,13 +2,14 @@
 
 A list of example assignments. 
 
-The active version can viewed at:
+![Pages](_readme/screenshot-pages.png)
 
-https://pages.codeadam.ca/
+> The active version can viewed at:  
+> https://pages.codeadam.ca/
 
-![Pages](https://github.com/codeadamca/pages-list/blob/main/screenshot-pages.png?raw=true)
+***
 
-## Tutorial Requirements:
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [GitHub](https://github.com/)
